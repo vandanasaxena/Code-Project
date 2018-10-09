@@ -28,25 +28,30 @@
 }
 /* Style the topnav links */
 .topnav a {
-    float: left;
-    padding: 2px 4px;
-    }
-    /* Change color on hover */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: red;
-    }
+      float: left;
+      padding: 2px 4px;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: red;
+}
 
 
 
     img {
         float: right;
-        display: block; max-width: 250px;
+         max-width: 250px;
 margin: 0 auto 30px;
 border-radius: 100%;
     }
 
-
+    @media screen and (max-width: 600px) {
+       img {
+         float: none;
+           display : block;
+       }
+    }
     /*footer style*/
     .footer {
         background-color: #ddd;
@@ -64,3 +69,12 @@ border-radius: 100%;
 margin: 1;
 
 background-color: red;}
+
+/*portfolio.html layout*/
+
+.body.portfolio {
+
+  background-color: lightgreen;
+text-decoration-style: wavy;
+ display: block;
+}

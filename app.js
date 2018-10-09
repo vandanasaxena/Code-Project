@@ -1,2 +1,3 @@
-var i=0;
-for (i=1;i<=10;i++)
+
+function showDate(){
+  document.getElementById('demo').innerHTML = Date()}
