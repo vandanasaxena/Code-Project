@@ -8,7 +8,7 @@
 .header.homepage {
     border: solid 5px #ddd;
   }
-  .body-file {
+  .body.file {
   margin: 1;
 
   background-color: pink;
@@ -70,9 +70,19 @@ border-radius: 100%;
 
 /*About.html layout*/
 .body-about {
-margin: 1;
 
-background-color: red;}
+
+background-color: red;
+text-decoration-style: wavy;
+text-align: center;
+border-style: dotted;
+}
+.header-about {
+background-color: grey;
+padding: 20px;
+text-align: center;
+border-style: groove;
+}
 
 /*portfolio.html layout*/
 .header-portfolio {background-color: yellow;
@@ -84,10 +94,15 @@ padding: 20px;}
   background-color: lightgreen;
   text-decoration-style: wavy;
   display: block;
-
-}
-
-
-
 }
 /*contact.html layout*/
+
+.head-contact{
+  background-color: yellow;
+text-align: center;
+padding: 20px;
+border-Style: solid;}
+.body-contact {
+text-align: center;
+background-color: orange;
+border-style:dashed;}
