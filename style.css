@@ -107,3 +107,9 @@ border-Style: solid;}
 text-align: center;
 background-color: orange;
 border-style:dashed;}
+/*Appetizer.html layout*/
+.h2{text-align: center;
+background-color: skyblue;
+border-style:groove;}
+.body-appetizer
+{background-color: yellow;}
