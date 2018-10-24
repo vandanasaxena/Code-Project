@@ -8,10 +8,11 @@
 .header.homepage {
     border: solid 5px #ddd;
   }
-  .body.file {
+  .wrapper {
   margin: 1;
 
   background-color: pink;
+  height: 100vh;
 }
 /* Style the header */
 .header {
@@ -96,7 +97,7 @@ padding: 20px;border-style:solid;
 }
 
 .body-portfolio {
-
+display: flex;
   background-color: lightgreen;
   text-decoration-style: wavy;
   word-wrap:normal;
@@ -113,6 +114,7 @@ border-Style: solid;}
 text-align: center;
 background-color: orange;
 border-style:dashed;}
+.footer-contact{background:grey;text-align: center;}
 /*Appetizer.html layout*/
 .h2{text-align: center;
 background-color: skyblue;
