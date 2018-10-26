@@ -80,6 +80,7 @@ background-color: red;
 text-decoration-style: wavy;
 text-align: center;
 border-style: dotted;
+height:100vh;
 }
 .header-about {
 background-color: grey;
@@ -89,19 +90,13 @@ border-style: groove;
 }
 
 /*portfolio.html layout*/
-.img-portfolio{ height: 500px;
-    width: 500px;}
+
 .header-portfolio {background-color: yellow;
 text-align: center;
 padding: 20px;border-style:solid;
 }
 
-.body-portfolio {
-display: flex;
-  background-color: lightgreen;
-  text-decoration-style: wavy;
-  word-wrap:normal;
-}
+
 
 /*contact.html layout*/
 
