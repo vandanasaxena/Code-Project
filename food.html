@@ -4,38 +4,19 @@
 <link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <div class="header"><h1>My Restaurant</h1></div>
-   <img src="food.jpg" alt="food" style="width:700px;height:400px;margin-left:80px;">
-
-    <h2>Menu</h2>
-
-    <ul>
+   <div class="header-food"><h1>My Online Restaurant</h1></div>
+  <div class="body-food">
+<img class=img-food src="food.jpg"
+    alt="food">
+<div class="ul-food">
+  <h2>Menu</h2>
       <li1><a href="appetizer.html">Appetizer</a></li1>
 
       <li1><a href="maincourse.html">Main Course</a></li1>
       <li1><a href="desert.html">Desert</a></li1>
+    </div>
           </ul>
-          <style>
-          /*Menu style*/
-          ul {
-              list-style-type: none;
-              margin: 10px;
-              padding: 20px;
-              overflow: hidden;
-              background-color: #ddd;
-          }
-          li1 {
-      float: left;
-      padding :7px;
 
-       }
-
-
-
-
-
-       </style>
-     <body>
 
        <form action="file.html" method="post">
          <h3>Place the order here for carryout.</h3>
@@ -58,56 +39,44 @@
         </select>
           <li><lebel>Contact number<label></li>
           <input type="numbers" id="numbers" name="phone_number"></input>
+          <h2>Enter Credit Card</h2>
+          <input type="numbers" id="numbers" name="credit_card"></input>
 
 
 
 
 
 
-            <p id="demo"></p>
 
-            <button type="button"
-            onclick="showDate()">
-             Click me to display Date and Time.</button>
 
 
      </form>
      <button type="submit" class="btn">Submit</button>
-  </form>
+     <p id="demo"></p>
+
+     <button type="button"
+     onclick="showDate()">
+      Click me to display Date and Time.</button>
+
 <h2>Pick up Location</h2>
 <p>1234 Market Street
 Louisville Kentucky 40202</p>
 
-          <a href="http://facebook.com/Vandana"><img src="facebook.jpg" alt="facebook logo" class="social-icon"></a>
-           <p>&copy; 2018 My Restaurant. </p>
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=main%20street%20louisville%20ky&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
-<div class="footer">Thanks for ordering see you soon</div>
-  <style>
-/*Styling background*/
-img {float:right;padding:10px;}
 
-body {
-  background-color:yellow;
-  background-size: cover;
+<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
 
-}
-body{
-  color: blue;
-}
-.header {
-    background-color: orange;
-    text-align: center;
-    padding: 20px;
-}
-.footer {
-  background-color: purple;
-text-align: center;
-padding: 20px;
-}
-    .social-icon{height:25px;float:left;}
-</style>
+src="https://maps.google.com/maps?q=main%20street%20louisville%20ky&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.crocothemes.net"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+<div class="footer-food">Thanks for ordering see you soon</div>
+</div>
+
+
+
+
+
+</div>
+
 <script src="app.js"></script>
-</body>
-
+<a href="http://facebook.com/Vandana"><img src="facebook.jpg" alt="facebook logo" class="social-icon"></a>
+ <p>&copy; 2018 My Restaurant. </p>
 </html>
