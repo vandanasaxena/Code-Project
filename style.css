@@ -1,5 +1,6 @@
 
 /*file.html page styleing*/
+html{position:relative;}
 .header.homepage {
     border-style: double;
             background-color: red;
