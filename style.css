@@ -18,15 +18,16 @@ border-style: double;
 /* Style the top navigation bar */
 
 .topnav {
-    
+
     overflow:hidden;
     background-color: #ddd;
     padding: 10px;
 }
+ul{    list-style-type: none;}
 /* Style the topnav links */
 .topnav a {
-      list-style-type: none
-      float: left;
+
+
       padding: 2px 20px;
 }
 /* Change color on hover */
@@ -49,7 +50,9 @@ border-radius: 100%;
 @media screen and (min-width: 768px) {
   .footer{
     position: absolute;
+
   }
+  .topnav a{float:left;}
 }
     @media screen and (max-width: 768px) {
       .img-file {float: none;
